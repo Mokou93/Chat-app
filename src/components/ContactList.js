@@ -21,19 +21,19 @@ function ContactList() {
       name: "Gertrude Lopez",
       avatar: "https://randomuser.me/api/portraits/women/96.jpg",
       status: true
-    }
+    },
     {
-        id: 4,
-        name: "Emily Harris",
-        avatar: "https://randomuser.me/api/portraits/women/50.jpg",
-        status: true
-      }
-      {
-        id: 5,
-        name: "Myrtle Wells",
-        avatar: "https://randomuser.me/api/portraits/women/23.jpg",
-        status: true
-      }
+      id: 4,
+      name: "Emily Harris",
+      avatar: "https://randomuser.me/api/portraits/women/50.jpg",
+      status: true
+    },
+    {
+      id: 5,
+      name: "Myrtle Wells",
+      avatar: "https://randomuser.me/api/portraits/women/23.jpg",
+      status: true
+    }
   ];
   return Array.map(cont => {
     return (
